@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 
 # How to use macro-enabled files in Power Automate flows
 
-You can integrate your .xlsm files with a Power Automate flow. This lets you start to convert your existing automation solutions to web-based formats. Please note that the macros contained in the .xslm files cannot be run through Power Automate. Only Office Scripts are enabled there.
+You can integrate your .xlsm files with a Power Automate flow. This lets you start to convert your existing automation solutions to web-based formats. Please note that the macros contained in the .xlsm files cannot be run through Power Automate. Only Office Scripts are enabled there.
 
 The [Excel Online (Business) connector](https://flow.microsoft.com/connectors/shared_excelonlinebusiness/excel-online-business/) in [Power Automate](https://flow.microsoft.com/) is typically limited to files in the Microsoft Excel Open XML Spreadsheet (.xlsx) format. Its file browser only lets you select .xlsx files. However, macro-enabled files are compatible with the connector's **Run script** action if the file metadata is used.
 
